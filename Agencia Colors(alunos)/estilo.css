@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@600;700&display=swap');
 
 /* Significa tudo */
-*. *::after, *::before {
+*, *::after, *::before {
     box-sizing: border-box;
     scroll-padding-top: 120px; 
     /* permite uma distância quando se clica nav a */
 }
 
 html {
-    /* font-size: 18px; */
+    font-size: 18px;
     /* (!importante) pode ser usado para fazer uma regra prevalecer */
     scroll-behavior: smooth;
     /* permite transição suave quando se clica nav a */
@@ -83,7 +83,7 @@ main, section {
     text-transform: uppercase;
     /* transforma em maiúsculas */
     font-family: 'Oswald', sans-serif;
-    font-size: 8rem;
+    font-size: 3rem;
     /* faz ele ser 3x o valor do elemento raiz (html) 3x 18px */
     margin-bottom: 1rem;
     /* faz ele ser 1x o valor do elemento raiz (html) 18px */
@@ -220,7 +220,7 @@ nav a {
 }
 
 .conteudo h1 {
-    font-size: 1.1rem;
+    font-size: 5rem;
     /* aumenta a fonte quando tela maior q 768px */
     margin: -0.6rem;
 }
